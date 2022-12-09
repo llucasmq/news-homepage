@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.menu img {
+  max-height: 2.5rem;
+  align-self: center;
+}
+
+.menu-lista {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  align-self: center;
+}
+
+.menu-lista a {
+  text-decoration: none;
+  padding: 2rem;
+  color: hsl(236, 13%, 42%);
+}
+
+.menu-lista a:hover {
+  color: hsl(35, 77%, 62%);
+  transition: 0.5s;
+}
